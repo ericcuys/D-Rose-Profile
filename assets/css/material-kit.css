@@ -14800,7 +14800,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999;
+  color: #000;
 }
 
 .text-warning {
@@ -17360,6 +17360,7 @@ footer .pull-center {
   max-width: 300px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 250px;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   -o-transform: translate3d(0, -50%, 0);
@@ -18063,4 +18064,17 @@ footer .pull-center {
   }
 }
 
-/*# sourceMappingURL=kit-free.css.map */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+
+thead {
+  font-family:Arial Black;
+}
+
+#label{
+
+font-weight: bold;
+}
